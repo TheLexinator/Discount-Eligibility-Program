@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('nature_in_pink.jpg');
+    background-size: cover; 
+   
+}
+
+   
+.container{
+    background-color: pink;
+    border-radius: 20px;
+    padding: 100px 70px;
+}
+
+button {
+  border-radius: 50%;
+  padding: 25px;
+  border-color: #ff007f;
+  background-color: #ff007f;
+  font-size: 90%;
+  font-weight:bold;
+}
+
+.btn:hover {
+    transform: scale(1.1);  
+    transition: transform .3s ease-in-out; 
+}
+
+input{
+   border-radius: 25px;
+   border: 2px solid #ff007f;
+   padding: 10px; 
+   height: 15px;
+}
+
+form {
+  display:block;
+  text-align:center;
+  border-radius:20px;
+  margin: 20px;
+}
